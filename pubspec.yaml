@@ -1,0 +1,39 @@
+name: sankar_connect
+description: "Sankar Connect - Sankar Group Industrial & Automotive Products Mobile Application"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State Management
+  provider: ^6.1.2
+  # Persistent Local Storage
+  shared_preferences: ^2.2.2
+  # Networking & HTTP client
+  http: ^1.2.0
+  # Material & Cupertino icons
+  cupertino_icons: ^1.0.6
+  # Google Fonts for professional typography
+  google_fonts: ^6.1.0
+  # Shimmer loading effects
+  shimmer: ^3.0.0
+  # Cached network image
+  cached_network_image: ^3.3.1
+  # URL launcher for support contact
+  url_launcher: ^6.2.5
+  # Internationalization / formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
